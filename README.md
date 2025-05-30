@@ -142,6 +142,13 @@ All queries are automatically routed to the right tool. See observability dashbo
   * Simulates fine-tuning LLMs with minimal compute
 
 ---
+## 🌟 Final Note
+
+This was an amazing learning experience! I explored RAG pipelines, simulated LoRA tuning, built end-to-end tool routing, and strengthened my understanding of observability in AI systems.  I wasn't very familiar with model scaling and selection before, and it's an area I’m excited to learn more about as I continue growing as an AI engineer.
+
+Thanks for the opportunity!
+
+---
 
 📜 License
 
@@ -155,12 +162,5 @@ This project is open-sourced under the MIT License.
 
 ---
 
-## 🌟 Final Note
-
-This was an amazing learning experience! I explored RAG pipelines, simulated LoRA tuning, built end-to-end tool routing, and strengthened my understanding of observability in AI systems.  I wasn't very familiar with model scaling and selection before, and it's an area I’m excited to learn more about as I continue growing as an AI engineer.
-
-Thanks for the opportunity!
-
----
 🎥 Demo: [demo_assets/demo.mp4] 📂 Slide Deck: [demo_assets/slide_deck.pdf]
 
