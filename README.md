@@ -144,7 +144,7 @@ All queries are automatically routed to the right tool. See observability dashbo
 ---
 ## 🌟 Final Note
 
-This was an amazing learning experience! I explored RAG pipelines, simulated LoRA tuning, built end-to-end tool routing, and strengthened my understanding of observability in AI systems.  I wasn't very familiar with model scaling and selection before, and it's an area I’m excited to learn more about as I continue growing as an AI engineer.
+This was an amazing learning experience! I explored RAG pipelines, simulated LoRA tuning, built end-to-end tool routing, and strengthened my understanding of observability in AI systems. One area I'd like to improve further is the graph tool's accuracy—especially in translating nuanced questions to Cypher queries. Additionally, I wasn’t very familiar with model scaling and selection before, and it's an area I’m excited to learn more about as I continue growing as an AI engineer.
 
 Thanks for the opportunity!
 
@@ -162,7 +162,7 @@ This project is open-sourced under the MIT License.
 
 ---
 
-🎥 Demo: [Watch the Demo](https://github.com/your-username/AllyIn/blob/main/demo_assets/demo.mp4)  
-📂 Slide Deck: [View the Slides](https://github.com/your-username/AllyIn/blob/main/demo_assets/slide_deck.pdf)
+🎥 Demo: [Watch the Demo](https://github.com/aishasartaj1/AllyIn/blob/main/demo_assets/demo.mp4)  
+📂 Slide Deck: [View the Slides](https://github.com/aishasartaj1/AllyIn/blob/main/demo_assets/slide_deck.pdf)
 
 
