@@ -52,6 +52,35 @@ cp .env.template .env
 # Start Streamlit UI
 streamlit run ui/app.py
 ```
+---
+
+## 🧱 Data Setup (Neo4j, Embeddings, SQL)
+
+* **Neo4j**
+
+  ```bash
+  docker run -d -p7474:7474 -p7687:7687 --name=allyin-dbms -e NEO4J_AUTH=neo4j/allyin123 neo4j:5.12
+  ```
+
+  Then load graph data:
+
+  ```bash
+  python src/retrievers/graph_retriever.py
+  ```
+
+* **Unstructured Data Embeddings**
+
+  ```bash
+  python src/ingest/embedder.py
+  ```
+
+* **Structured CSV Loader**
+
+  ```bash
+  python src/ingest/structured_loader.py
+  ```
+
+---
 
 ---
 
@@ -123,7 +152,7 @@ MIT License - see `LICENSE` file
 
 ## 🌟 Final Note
 
-This was an amazing learning experience! I explored RAG pipelines, simulated LoRA tuning, built end-to-end tool routing, and strengthened my understanding of observability in AI systems. I also learned I need to dig deeper into **model selection and scaling** — something I'm excited to continue learning.
+This was an amazing learning experience! I explored RAG pipelines, simulated LoRA tuning, built end-to-end tool routing, and strengthened my understanding of observability in AI systems. I also learned I need to dig deeper into model selection and scaling — something I'm excited to continue learning.
 
 Thanks for the opportunity!
 
