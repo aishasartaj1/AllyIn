@@ -58,15 +58,12 @@ streamlit run ui/app.py
 ##  How to Run a Query
 
 1. Launch the Streamlit app.
-
 2. Enter a natural language query like:
-
-  - Top flagged clients in the last year (sql Tool)
-  - Which facilities exceed regulations? (Graph Tool)
-  - Who is the compliance contact for Plant A? (Vector Tool with PII)
+  -- Top flagged clients in the last year (sql Tool)
+  -- Which facilities exceed regulations? (Graph Tool)
+  -- Who is the compliance contact for Plant A? (Vector Tool with PII)
   - Summarize the AllyIn kickoff memo (Vector Tool)
-
-The system selects the correct tool and returns an enriched response.
+3. The system selects the correct tool and returns an enriched response.
 
 All queries are automatically routed to the right tool. See observability dashboard for logs.
 
