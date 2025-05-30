@@ -83,8 +83,6 @@ streamlit run ui/app.py
 
 ---
 
----
-
 ##  How to Run a Query
 
 1. Launch the Streamlit app.
