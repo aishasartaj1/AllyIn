@@ -159,7 +159,7 @@ This project is open-sourced under the MIT License.
 
 🙌 Credits
 
-* Built for AllyIn Discovery Assistant Take-Home Challenge
+* Built for AllyIn Compass – Full Enterprise AI Agent Take-Home Challenge
 
 ---
 
