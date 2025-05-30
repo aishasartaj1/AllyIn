@@ -1,15 +1,16 @@
-# AllyIn Compass
+#  AllyIn Compass – Discovery & Intelligence Engine
 
-A smart enterprise assistant that can answer domain-specific questions using structured SQL data, unstructured documents (like emails and PDFs), and graph databases. Built with LangChain, Streamlit, Neo4j, and DuckDB.
+AllyIn Compass is a smart enterprise assistant designed to answer natural language questions using structured data (SQL), unstructured data (vector search), and graph knowledge bases (Neo4j). It simulates a multi-modal Retrieval-Augmented Generation (RAG) pipeline and uses lightweight fine-tuning with LoRA. Built with LangChain, Streamlit, Neo4j, and DuckDB.
 
 ---
 
 ## 🚀 Features
 
 * **Multi-modal Querying:** Automatically routes user queries to the best tool (SQL, Vector, or Graph)
-* **Compliance & PII Alerts:** Highlights sensitive data or risky terms
-* **Dashboard:** Built-in observability for query logging and tool usage
-* **Learning Tools:** Includes simulated fine-tuning using LoRA
+* **Compliance & PII Alerts:** Highlights sensitive data or risky terms in responses
+* **Observability Dashboard:** Visualizes tool usage, query logs, and response latency
+* **Feedback Loop:** Collects thumbs up/down for future iterations and analysis
+* **Learning Tools:** Includes RAG-style retrieval and simulated fine-tuning using LoRA (for exploration only)
 
 ---
 
@@ -98,14 +99,24 @@ All queries are automatically routed to the right tool. See observability dashbo
 
 ---
 
-## 🔧 Architecture Diagram
+## ## 🧱 Architecture
 
-* UI ➔ `ui/app.py`
-* Agent ➔ `agents/multi_tool_agent.py`
-* Tools ➔ `src/retrievers/`
-* Observability ➔ `dashboards/`
-* Feedback ➔ `feedback/logger.py`
-* PII/Compliance ➔ `security/`
+- **UI:** Streamlit interface in `ui/app.py`
+- **Agent:** LangChain zero-shot ReAct agent (`agents/multi_tool_agent.py`) routes queries to tools
+- **Tools:** Located in `src/retrievers/`
+  - `sql_retriever.py`: Runs DuckDB SQL queries
+  - `vector_retriever.py`: Performs Qdrant-based vector search over document embeddings
+  - `graph_retriever.py`: Converts natural language to Cypher and queries Neo4j
+- **Tagging Modules:**
+  - `security/pii_filter.py`: Detects emails, phone numbers, and SSNs
+  - `security/compliance_tagger.py`: Flags risky compliance-related keywords
+- **Observability:** `dashboards/metrics.py` logs tool selection and response times
+- **Feedback Logging:** `feedback/logger.py` records user feedback for learning
+- **Data Ingestion (src/ingest/):**
+  - `document_parser.py`: Extracts content from PDFs and .eml files
+  - `embedder.py`: Embeds documents and stores them in Qdrant
+  - `generate_structured.py`: Synthesizes SQL data from raw entries
+  - `structured_loader.py`: Loads structured CSV files into DuckDB
 
 ![Architecture](demo_assets/architecture.png)
 
@@ -130,30 +141,31 @@ All queries are automatically routed to the right tool. See observability dashbo
 
 * **LoRA (Low-Rank Adaptation):**
 
-  * Found in: `notebooks/models/lora_adapter/`
+  * Found in: `notebooks/models/lora_adapter/`, `notebooks/simulate_finetuning.ipynb`
   * Simulates fine-tuning LLMs with minimal compute
 
 ---
 
-## 🎓 Credits
+📜 License
 
-* LangChain
-* Streamlit
-* Neo4j
-* OpenAI
+This project is open-sourced under the MIT License.
 
 ---
 
-## ✉️ License
+🙌 Credits
 
-MIT License - see `LICENSE` file
+* Built for AllyIn Discovery Assistant Take-Home Challenge
+
+* Developed by Aisha Sartaj
 
 ---
 
 ## 🌟 Final Note
 
-This was an amazing learning experience! I explored RAG pipelines, simulated LoRA tuning, built end-to-end tool routing, and strengthened my understanding of observability in AI systems. I also learned I need to dig deeper into model selection and scaling — something I'm excited to continue learning.
+This was an amazing learning experience! I explored RAG pipelines, simulated LoRA tuning, built end-to-end tool routing, and strengthened my understanding of observability in AI systems.  I wasn't very familiar with model scaling and selection before, and it's an area I’m excited to learn more about as I continue growing as an AI engineer.
 
 Thanks for the opportunity!
 
+---
+🎥 Demo: [demo_assets/demo.mp4] 📂 Slide Deck: [demo_assets/slide_deck.pdf]
 
