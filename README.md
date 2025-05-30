@@ -97,7 +97,7 @@ All queries are automatically routed to the right tool. See observability dashbo
 
 ---
 
-## ## 🧱 Architecture
+## 🧱 Architecture
 
 - **UI:** Streamlit interface in `ui/app.py`
 - **Agent:** LangChain zero-shot ReAct agent (`agents/multi_tool_agent.py`) routes queries to tools
@@ -117,7 +117,6 @@ All queries are automatically routed to the right tool. See observability dashbo
   - `structured_loader.py`: Loads structured CSV files into DuckDB
 
 ![Architecture](demo_assets/architecture.png)
-
 ---
 
 ## 🧪 Tech Stack
@@ -153,8 +152,6 @@ This project is open-sourced under the MIT License.
 🙌 Credits
 
 * Built for AllyIn Discovery Assistant Take-Home Challenge
-
-* Developed by Aisha Sartaj
 
 ---
 
