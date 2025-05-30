@@ -162,5 +162,7 @@ This project is open-sourced under the MIT License.
 
 ---
 
-🎥 Demo: [demo_assets/demo.mp4] 📂 Slide Deck: [demo_assets/slide_deck.pdf]
+🎥 Demo: [Watch the Demo](https://github.com/your-username/AllyIn/blob/main/demo_assets/demo.mp4)  
+📂 Slide Deck: [View the Slides](https://github.com/your-username/AllyIn/blob/main/demo_assets/slide_deck.pdf)
+
 
