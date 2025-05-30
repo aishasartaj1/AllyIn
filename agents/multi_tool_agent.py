@@ -127,7 +127,7 @@ tools = [vector_tool, sql_tool, graph_tool]
 agent = initialize_agent(
     tools=tools,
     llm=llm,
-    agent_type=AgentType.OPENAI_FUNCTIONS,
+    agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
     verbose=True
 )
 
