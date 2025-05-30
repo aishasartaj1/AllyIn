@@ -22,9 +22,10 @@ AllyIn/
 ├── data/                    # Structured CSV + Unstructured docs
 ├── dashboards/              # Streamlit metrics dashboard
 ├── feedback/                # Feedback logging
-├── notebooks/               # RAG + LoRA experiments
+├── notebooks/               # LoRA tuning notebooks
 ├── security/                # PII + compliance tagging
 ├── src/retrievers/          # SQL, vector, and graph retrievers
+├── tools/                   # RAG utilities
 ├── ui/                      # Streamlit UI
 ├── demo_assets/             # Screenshots + demo video
 └── README.md
