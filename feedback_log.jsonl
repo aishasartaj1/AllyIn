@@ -1,0 +1,24 @@
+{"query": "What was the purpose of the Knowledge Discovery Assistant Proposal?", "answer": "The purpose of the Knowledge Discovery Assistant Proposal was to outline the proposed integration architecture for the knowledge assistant, including details on document ingestion, retrieval logic, and expected outcomes for the AllyIn Compass smart assistant.", "rating": 1}
+{"query": "What was the purpose of the Knowledge Discovery Assistant Proposal?", "answer": "The purpose of the Knowledge Discovery Assistant Proposal was to outline the proposed integration architecture for the knowledge assistant, including details on document ingestion, retrieval logic, and expected outcomes for the AllyIn Compass smart assistant.", "rating": 0}
+{"query": "What was the purpose of the Knowledge Discovery Assistant Proposal?", "answer": "The purpose of the Knowledge Discovery Assistant Proposal was to outline the proposed integration architecture for the knowledge assistant, including details on document ingestion, retrieval logic, and expected outcomes for the AllyIn Compass smart assistant.", "rating": 1}
+{"query": "What was the purpose of the Knowledge Discovery Assistant Proposal?", "answer": "The purpose of the Knowledge Discovery Assistant Proposal was to outline the proposed integration architecture for the knowledge assistant, including details on document ingestion, retrieval logic, and expected outcomes for the AllyIn Compass smart assistant.", "rating": 1}
+{"query": "What is the total order amount for customer ID 1?", "answer": "I don't know.", "rating": 0}
+{"query": "What is the total order amount for customer ID 1?", "answer": "I don't know.", "rating": 0}
+{"query": "What is the total order amount for customer ID 1?", "answer": "I don't know.", "rating": 0}
+{"query": "What is the total order amount for customer ID 1?", "answer": "I don't know.", "rating": 0}
+{"query": "What is the total order amount for customer ID 1?", "answer": "The total order amount for customer ID 1 is $550.", "rating": 1}
+{"query": "List all customers from Germany.", "answer": "The customers from Germany are \"Gamma Inc\".", "rating": 1}
+{"query": "What\u2019s in the weekly compliance report?", "answer": "The weekly compliance report includes details on 4 new emissions events flagged in Q2 facilities, finalization of historical compliance tables, and internal audit document consolidation.", "rating": 1}
+{"query": "What violations were reported in Q2?", "answer": "4 new emissions events were flagged in Q2 facilities.", "rating": 1}
+{"query": "Which facilities exceed regulations?", "answer": "The facilities not in compliance with regulations are the Q2 facilities with 4 new emissions events flagged.", "rating": 1}
+{"query": "What is the total order amount for customer ID 1?", "answer": "The total order amount for customer ID 1 is $550.", "rating": 1}
+{"query": "What is the total order amount for customer ID 1?", "answer": "The total order amount for customer ID 1 is $550.", "rating": 1}
+{"query": "Which facilities are inspected by EPA?", "answer": "Plant A is inspected by the EPA.", "rating": 1}
+{"query": "CO2 violations since Q1 near San Jose", "answer": "There have been 4 new emissions events flagged in Q2 facilities since Q1 near San Jose.", "rating": 1}
+{"query": "CO2 violations since Q1 near San Jose", "answer": "The specific details on CO2 violations near San Jose since Q1 are not available through the tools provided.", "rating": 1}
+{"query": "List all customers with more than one order", "answer": "There is at least one customer who has placed more than one order in the orders table.", "rating": 0}
+{"query": "Top flagged clients in past year", "answer": "I need to search for the entity graph related to the \"inspections\" table to find more information about it.", "rating": 1}
+{"query": "Who is the compliance contact for Plant A?", "answer": "The compliance contact for Plant A is john.doe@example.com or (123) 456-7890.", "rating": 1}
+{"query": "What is the total order value for each customer?", "answer": "The total order value for each customer is as follows:\n- Customer ID 1: 550\n- Customer ID 2: 450\n- Customer ID 4: 150\n- Customer ID 5: 600", "rating": 1}
+{"query": "What is the total order value for each customer?", "answer": "The total order value for each customer is as follows:\n- Customer ID 1: 550\n- Customer ID 2: 450\n- Customer ID 4: 150\n- Customer ID 5: 600", "rating": 1}
+{"query": "What is the total order value for each customer?", "answer": "The total order value for each customer is as follows:\n- Customer ID 1: 550\n- Customer ID 2: 450\n- Customer ID 4: 150\n- Customer ID 5: 600", "rating": 1}

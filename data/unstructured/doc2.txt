@@ -1,0 +1,18 @@
+Company Weekly Report — Compliance Ops, Week 19
+
+To: Risk & Compliance Unit  
+From: Compliance Operations Lead  
+Subject: Weekly Snapshot: Reporting Pipeline + Violations  
+
+Overview:
+- 4 new emissions events were flagged in Q2 facilities.
+- The reporting team is finalizing the historical compliance table for API export.
+- Internal audit docs are being consolidated in PDF format.
+
+Action Items:
+1. Data ingestion test for `.csv` and `.pdf` due by end of week.
+2. Legacy `.eml` reports from regional units must be converted to text-parsable format.
+
+All supporting files are now available in `/shared/data/unstructured`.
+
+— Compliance Ops

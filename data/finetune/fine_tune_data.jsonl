@@ -1,0 +1,10 @@
+{"prompt": "What emissions violations were reported in Q2?", "completion": "4 new emissions events were flagged in Q2 facilities."}
+{"prompt": "Who flagged Plant A?", "completion": "The EPA flagged Plant A for non-compliance."}
+{"prompt": "What is the purpose of the Knowledge Discovery Assistant Proposal?", "completion": "To outline the integration architecture for AllyIn Compass and describe ingestion and retrieval logic."}
+{"prompt": "Which plants are compliant with water usage regulations?", "completion": "Plant C is compliant with water usage regulations."}
+{"prompt": "What documents mention audit issues?", "completion": "The weekly compliance reports and internal memos reference audit issues."}
+{"prompt": "What regulations did Plant B exceed?", "completion": "Plant B exceeded nitrogen emissions limits."}
+{"prompt": "Where can I find structured emissions data?", "completion": "Sample emissions data is located in the `/data/structured` SFTP directory."}
+{"prompt": "How many orders did customer ID 1 place?", "completion": "Customer ID 1 placed 2 orders."}
+{"prompt": "Summarize the emissions compliance report.", "completion": "The report highlighted 4 flagged emissions events and several audit follow-ups."}
+{"prompt": "Who is responsible for inspecting facilities?", "completion": "The EPA is responsible for inspecting facilities like Plant E."}

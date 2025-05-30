@@ -1,0 +1,116 @@
+{"timestamp": "2025-05-30T04:39:57.437036", "query": "SELECT customer_id, COUNT(order_id) FROM orders GROUP BY customer_id HAVING COUNT(order_id) > 1", "tool": "sql", "response_time": 2.716}
+{"timestamp": "2025-05-30T04:39:57.437036", "query": "SELECT customer_id, COUNT(order_id) FROM orders GROUP BY customer_id HAVING COUNT(order_id) > 1", "tool": "sql", "response_time": 2.716}
+{"timestamp": "2025-05-30T04:43:57.916455", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.127}
+{"timestamp": "2025-05-30T04:43:57.921403", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.132}
+{"timestamp": "2025-05-30T04:45:15.289012", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.137}
+{"timestamp": "2025-05-30T04:45:15.289012", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.137}
+{"timestamp": "2025-05-30T04:45:17.533773", "query": "SELECT customer_id, COUNT(order_id) FROM orders GROUP BY customer_id HAVING COUNT(order_id) > 1", "tool": "sql", "response_time": 2.851}
+{"timestamp": "2025-05-30T04:45:17.533773", "query": "SELECT customer_id, COUNT(order_id) FROM orders GROUP BY customer_id HAVING COUNT(order_id) > 1", "tool": "sql", "response_time": 2.851}
+{"timestamp": "2025-05-30T04:45:21.499924", "query": "SELECT customer_id FROM orders GROUP BY customer_id HAVING COUNT(order_id) > 1", "tool": "sql", "response_time": 3.35}
+{"timestamp": "2025-05-30T04:45:21.499924", "query": "SELECT customer_id FROM orders GROUP BY customer_id HAVING COUNT(order_id) > 1", "tool": "sql", "response_time": 3.35}
+{"timestamp": "2025-05-30T04:48:32.003808", "query": "SELECT customer_id, COUNT(order_id) FROM orders GROUP BY customer_id HAVING COUNT(order_id) > 1", "tool": "sql", "response_time": 3.019}
+{"timestamp": "2025-05-30T04:48:32.003808", "query": "SELECT customer_id, COUNT(order_id) FROM orders GROUP BY customer_id HAVING COUNT(order_id) > 1", "tool": "sql", "response_time": 3.019}
+{"timestamp": "2025-05-30T04:48:43.670820", "query": "SELECT client_id, COUNT(flagged) as flag_count FROM clients WHERE flagged = 1 AND date >= 'one year ago' GROUP BY client_id ORDER BY flag_count DESC LIMIT 10", "tool": "sql", "response_time": 3.767}
+{"timestamp": "2025-05-30T04:48:43.670820", "query": "SELECT client_id, COUNT(flagged) as flag_count FROM clients WHERE flagged = 1 AND date >= 'one year ago' GROUP BY client_id ORDER BY flag_count DESC LIMIT 10", "tool": "sql", "response_time": 3.767}
+{"timestamp": "2025-05-30T04:49:06.123424", "query": "SELECT client_id, COUNT(flagged) as flag_count FROM clients WHERE flagged = 1 AND date >= 'one year ago' GROUP BY client_id ORDER BY flag_count DESC LIMIT 10", "tool": "sql", "response_time": 2.82}
+{"timestamp": "2025-05-30T04:49:06.123424", "query": "SELECT client_id, COUNT(flagged) as flag_count FROM clients WHERE flagged = 1 AND date >= 'one year ago' GROUP BY client_id ORDER BY flag_count DESC LIMIT 10", "tool": "sql", "response_time": 2.82}
+{"timestamp": "2025-05-30T04:49:09.652289", "query": "AllyIn Compass kickoff memo", "tool": "vector", "response_time": 0.061}
+{"timestamp": "2025-05-30T04:49:10.285641", "query": "AllyIn Compass kickoff memo key points", "tool": "vector", "response_time": 0.05}
+{"timestamp": "2025-05-30T04:49:33.926663", "query": "SELECT compliance_contact FROM plants WHERE plant_name = 'Plant A'", "tool": "sql", "response_time": 3.176}
+{"timestamp": "2025-05-30T04:49:33.926663", "query": "SELECT compliance_contact FROM plants WHERE plant_name = 'Plant A'", "tool": "sql", "response_time": 3.176}
+{"timestamp": "2025-05-30T04:49:34.870399", "query": "compliance contact for Plant A", "tool": "vector", "response_time": 0.038}
+{"timestamp": "2025-05-30T04:52:34.899775", "query": "SELECT compliance_contact FROM plants WHERE plant_name = 'Plant A'", "tool": "sql", "response_time": 1.51}
+{"timestamp": "2025-05-30T04:52:34.917716", "query": "SELECT compliance_contact FROM plants WHERE plant_name = 'Plant A'", "tool": "sql", "response_time": 1.528}
+{"timestamp": "2025-05-30T04:52:35.898965", "query": "query: \"compliance contact for Plant A", "tool": "vector", "response_time": 0.059}
+{"timestamp": "2025-05-30T04:53:21.555967", "query": "SELECT compliance_contact FROM plants WHERE plant_name = 'Plant A'", "tool": "sql", "response_time": 2.068}
+{"timestamp": "2025-05-30T04:53:21.556968", "query": "SELECT compliance_contact FROM plants WHERE plant_name = 'Plant A'", "tool": "sql", "response_time": 2.069}
+{"timestamp": "2025-05-30T04:53:22.389166", "query": "compliance contact Plant A", "tool": "vector", "response_time": 0.053}
+{"timestamp": "2025-05-30T04:53:25.675079", "query": "plants flagged EPA", "tool": "vector", "response_time": 0.037}
+{"timestamp": "2025-05-30T04:53:26.569012", "query": "EPA flagged emissions events Q2 facilities", "tool": "vector", "response_time": 0.067}
+{"timestamp": "2025-05-30T04:53:27.578309", "query": "EPA flagged emissions events Q2 facilities details", "tool": "vector", "response_time": 0.026}
+{"timestamp": "2025-05-30T04:53:51.489311", "query": "plants flagged EPA", "tool": "vector", "response_time": 0.056}
+{"timestamp": "2025-05-30T04:53:52.316252", "query": "violation plants EPA", "tool": "vector", "response_time": 0.142}
+{"timestamp": "2025-05-30T04:53:53.004587", "query": "EPA flagged plants", "tool": "vector", "response_time": 0.053}
+{"timestamp": "2025-05-30T04:53:54.501100", "query": "plants flagged EPA", "tool": "graph", "response_time": 0.201}
+{"timestamp": "2025-05-30T04:53:56.109701", "query": "EPA flagged plants list", "tool": "vector", "response_time": 0.042}
+{"timestamp": "2025-05-30T04:53:56.951674", "query": "EPA flagged plants report", "tool": "vector", "response_time": 0.042}
+{"timestamp": "2025-05-30T04:53:57.694657", "query": "EPA flagged plants list report", "tool": "vector", "response_time": 0.028}
+{"timestamp": "2025-05-30T04:54:00.866583", "query": "plants flagged EPA", "tool": "sql", "response_time": 2.244}
+{"timestamp": "2025-05-30T04:54:00.868092", "query": "plants flagged EPA", "tool": "sql", "response_time": 2.245}
+{"timestamp": "2025-05-30T04:54:01.635302", "query": "EPA flagged plants list", "tool": "vector", "response_time": 0.052}
+{"timestamp": "2025-05-30T04:54:12.871908", "query": "plants flagged EPA", "tool": "vector", "response_time": 0.037}
+{"timestamp": "2025-05-30T04:54:16.740666", "query": "facilities regulations exceeded", "tool": "vector", "response_time": 0.026}
+{"timestamp": "2025-05-30T04:54:17.348729", "query": "facilities compliance restatement earnings risk violation", "tool": "vector", "response_time": 0.033}
+{"timestamp": "2025-05-30T04:54:20.481716", "query": "Plant A EPA violations", "tool": "vector", "response_time": 0.034}
+{"timestamp": "2025-05-30T04:54:48.556744", "query": "facilities regulations exceeded", "tool": "vector", "response_time": 0.029}
+{"timestamp": "2025-05-30T04:54:49.135649", "query": "facilities violations", "tool": "vector", "response_time": 0.039}
+{"timestamp": "2025-05-30T04:56:26.002390", "query": "EPA facilities inspection", "tool": "vector", "response_time": 0.044}
+{"timestamp": "2025-05-30T04:56:26.564808", "query": "facilities with emissions events Q2", "tool": "vector", "response_time": 0.041}
+{"timestamp": "2025-05-30T04:56:27.207186", "query": "facilities with emissions events Q2 EPA", "tool": "vector", "response_time": 0.033}
+{"timestamp": "2025-05-30T04:56:27.812040", "query": "EPA facilities inspected", "tool": "vector", "response_time": 0.1}
+{"timestamp": "2025-05-30T04:56:28.472096", "query": "EPA facilities inspected report", "tool": "vector", "response_time": 0.024}
+{"timestamp": "2025-05-30T05:06:59.506485", "query": "EPA facilities inspection", "tool": "vector", "response_time": 0.04}
+{"timestamp": "2025-05-30T05:07:00.098158", "query": "EPA facilities inspection report", "tool": "vector", "response_time": 0.03}
+{"timestamp": "2025-05-30T05:10:48.469173", "query": "SELECT customer, SUM(order_value) FROM orders GROUP BY customer", "tool": "sql", "response_time": 3.552}
+{"timestamp": "2025-05-30T05:10:48.469173", "query": "SELECT customer, SUM(order_value) FROM orders GROUP BY customer", "tool": "sql", "response_time": 3.552}
+{"timestamp": "2025-05-30T05:11:16.119275", "query": "AllyIn Compass kickoff memo", "tool": "vector", "response_time": 0.202}
+{"timestamp": "2025-05-30T05:11:16.709141", "query": "Key points in AllyIn Compass kickoff memo", "tool": "vector", "response_time": 0.043}
+{"timestamp": "2025-05-30T05:11:31.215423", "query": "SELECT contact_name, contact_email FROM plant_contacts WHERE plant_name = 'Plant A' AND contact_type = 'compliance'", "tool": "sql", "response_time": 1.751}
+{"timestamp": "2025-05-30T05:11:31.215423", "query": "SELECT contact_name, contact_email FROM plant_contacts WHERE plant_name = 'Plant A' AND contact_type = 'compliance'", "tool": "sql", "response_time": 1.751}
+{"timestamp": "2025-05-30T05:11:32.066469", "query": "Plant A compliance contact", "tool": "vector", "response_time": 0.035}
+{"timestamp": "2025-05-30T05:11:48.258536", "query": "plants flagged EPA", "tool": "vector", "response_time": 0.042}
+{"timestamp": "2025-05-30T05:11:49.092138", "query": "EPA flagged emissions events Q2 facilities", "tool": "vector", "response_time": 0.038}
+{"timestamp": "2025-05-30T05:11:50.545272", "query": "specific plants flagged EPA emissions events Q2", "tool": "vector", "response_time": 0.064}
+{"timestamp": "2025-05-30T05:11:54.180580", "query": "Query structured data for specific plants flagged by EPA for emissions events in Q2", "tool": "graph", "response_time": 2.135}
+{"timestamp": "2025-05-30T05:12:38.383326", "query": "SELECT agency FROM violations WHERE type = 'CO2' AND quarter = 'Q2'", "tool": "sql", "response_time": 1.572}
+{"timestamp": "2025-05-30T05:12:38.385335", "query": "SELECT agency FROM violations WHERE type = 'CO2' AND quarter = 'Q2'", "tool": "sql", "response_time": 1.574}
+{"timestamp": "2025-05-30T05:12:39.109806", "query": "query: \"CO2 violations Q2 agency flagged", "tool": "vector", "response_time": 0.067}
+{"timestamp": "2025-05-30T05:12:58.972459", "query": "facilities regulations exceeded", "tool": "vector", "response_time": 0.037}
+{"timestamp": "2025-05-30T05:12:59.587122", "query": "facilities regulations exceeded restatement earnings risk violation", "tool": "vector", "response_time": 0.042}
+{"timestamp": "2025-05-30T05:40:35.023473", "query": "AllyIn Compass kickoff memo summary", "tool": "vector", "response_time": 0.369}
+{"timestamp": "2025-05-30T05:40:35.851464", "query": "Key points from AllyIn Compass kickoff memo summary", "tool": "vector", "response_time": 0.054}
+{"timestamp": "2025-05-30T05:41:34.540665", "query": "SELECT contact_name, contact_email FROM plant_contacts WHERE plant_name = 'Plant A' AND contact_type = 'compliance'", "tool": "sql", "response_time": 2.108}
+{"timestamp": "2025-05-30T05:41:34.542661", "query": "SELECT contact_name, contact_email FROM plant_contacts WHERE plant_name = 'Plant A' AND contact_type = 'compliance'", "tool": "sql", "response_time": 2.11}
+{"timestamp": "2025-05-30T05:41:35.451624", "query": "compliance contact Plant A", "tool": "vector", "response_time": 0.055}
+{"timestamp": "2025-05-30T05:42:31.776953", "query": "SELECT compliance_contact FROM plants WHERE plant_name = 'Plant A'", "tool": "sql", "response_time": 2.219}
+{"timestamp": "2025-05-30T05:42:31.777961", "query": "SELECT compliance_contact FROM plants WHERE plant_name = 'Plant A'", "tool": "sql", "response_time": 2.22}
+{"timestamp": "2025-05-30T05:42:32.508003", "query": "compliance contact for Plant A", "tool": "vector", "response_time": 0.053}
+{"timestamp": "2025-05-30T05:42:36.906586", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 5.16}
+{"timestamp": "2025-05-30T05:42:36.907588", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 5.161}
+{"timestamp": "2025-05-30T05:53:41.532049", "query": "AllyIn Compass kickoff memo", "tool": "vector", "response_time": 0.06}
+{"timestamp": "2025-05-30T05:53:42.470254", "query": "key points AllyIn Compass kickoff memo", "tool": "vector", "response_time": 0.048}
+{"timestamp": "2025-05-30T05:54:25.480485", "query": "SELECT compliance_contact FROM plants WHERE plant_name = 'Plant A'", "tool": "sql", "response_time": 1.756}
+{"timestamp": "2025-05-30T05:54:25.481506", "query": "SELECT compliance_contact FROM plants WHERE plant_name = 'Plant A'", "tool": "sql", "response_time": 1.757}
+{"timestamp": "2025-05-30T05:54:26.483769", "query": "compliance contact for Plant A", "tool": "vector", "response_time": 0.104}
+{"timestamp": "2025-05-30T05:55:07.411586", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.189}
+{"timestamp": "2025-05-30T05:55:07.412586", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.19}
+{"timestamp": "2025-05-30T05:55:59.092956", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.669}
+{"timestamp": "2025-05-30T05:55:59.094020", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.67}
+{"timestamp": "2025-05-30T05:56:04.796188", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.905}
+{"timestamp": "2025-05-30T05:56:04.797339", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.906}
+{"timestamp": "2025-05-30T06:12:53.070207", "query": "AllyIn Compass kickoff memo summary", "tool": "vector", "response_time": 0.366}
+{"timestamp": "2025-05-30T06:12:53.795871", "query": "Key points from AllyIn Compass kickoff memo summary", "tool": "vector", "response_time": 0.101}
+{"timestamp": "2025-05-30T06:13:47.820560", "query": "AllyIn Compass kickoff memo", "tool": "vector", "response_time": 0.133}
+{"timestamp": "2025-05-30T06:13:49.143460", "query": "Key points from AllyIn Compass kickoff memo", "tool": "vector", "response_time": 0.097}
+{"timestamp": "2025-05-30T06:14:02.136106", "query": "SELECT contact_name, contact_email FROM plant_contacts WHERE plant_name = 'Plant A' AND contact_type = 'compliance'", "tool": "sql", "response_time": 1.751}
+{"timestamp": "2025-05-30T06:14:02.137087", "query": "SELECT contact_name, contact_email FROM plant_contacts WHERE plant_name = 'Plant A' AND contact_type = 'compliance'", "tool": "sql", "response_time": 1.752}
+{"timestamp": "2025-05-30T06:14:03.436003", "query": "compliance contact Plant A", "tool": "vector", "response_time": 0.099}
+{"timestamp": "2025-05-30T06:14:49.933118", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 4.316}
+{"timestamp": "2025-05-30T06:14:49.933118", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 4.316}
+{"timestamp": "2025-05-30T06:15:48.530711", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.475}
+{"timestamp": "2025-05-30T06:15:48.531716", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.476}
+{"timestamp": "2025-05-30T06:16:00.347264", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 9.807}
+{"timestamp": "2025-05-30T06:16:00.348265", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 9.808}
+{"timestamp": "2025-05-30T06:30:44.380402", "query": "AllyIn Compass kickoff memo", "tool": "vector", "response_time": 0.261}
+{"timestamp": "2025-05-30T06:30:45.200645", "query": "AllyIn Compass kickoff memo key dates", "tool": "vector", "response_time": 0.06}
+{"timestamp": "2025-05-30T06:31:32.151169", "query": "AllyIn Compass kickoff memo", "tool": "vector", "response_time": 0.125}
+{"timestamp": "2025-05-30T06:31:32.862274", "query": "AllyIn Compass kickoff memo key points", "tool": "vector", "response_time": 0.099}
+{"timestamp": "2025-05-30T06:31:45.705370", "query": "SELECT compliance_contact FROM plants WHERE plant_name = 'Plant A'", "tool": "sql", "response_time": 1.594}
+{"timestamp": "2025-05-30T06:31:45.712597", "query": "SELECT compliance_contact FROM plants WHERE plant_name = 'Plant A'", "tool": "sql", "response_time": 1.602}
+{"timestamp": "2025-05-30T06:31:46.698712", "query": "compliance contact for Plant A", "tool": "vector", "response_time": 0.117}
+{"timestamp": "2025-05-30T06:32:17.141271", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.657}
+{"timestamp": "2025-05-30T06:32:17.142285", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.658}
+{"timestamp": "2025-05-30T06:33:00.293835", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.802}
+{"timestamp": "2025-05-30T06:33:00.295847", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.804}
+{"timestamp": "2025-05-30T06:33:06.394011", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.673}
+{"timestamp": "2025-05-30T06:33:06.395104", "query": "SELECT customer_id, SUM(order_value) FROM orders GROUP BY customer_id", "tool": "sql", "response_time": 3.675}

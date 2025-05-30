@@ -1,0 +1,13 @@
+From: architect@clientco.com
+To: vendor@allyin.ai
+Subject: Vector Store Integration - Notes
+
+Hi,
+
+We’ve deployed Qdrant on our staging cluster.  
+Please confirm once your embedding pipeline is pushing vectors correctly — we’ll run similarity tests using the audit reports corpus.
+
+Also note: Neo4j Sandbox is live for knowledge graph ingestion.
+
+Regards,  
+Sr. Data Architect

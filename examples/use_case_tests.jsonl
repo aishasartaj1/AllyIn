@@ -1,0 +1,45 @@
+import os
+import json
+from datetime import datetime
+
+# Create examples directory if not exists
+os.makedirs("examples", exist_ok=True)
+
+# Use case test records
+use_case_tests = [
+  {
+    "timestamp": "2025-05-30T04:49:06.123424",
+    "query": "List all customers with more than one order",
+    "sql": "SELECT client_id, COUNT(flagged) as flag_count FROM clients WHERE flagged = 1 AND date >= 'one year ago' GROUP BY client_id ORDER BY flag_count DESC LIMIT 10",
+    "tool": "sql",
+    "response_time": 2.82,
+    "screenshot": "demo_assets/customers_orders.png"
+  },
+  {
+    "timestamp": "2025-05-30T04:49:09.652289",
+    "query": "Summarize the AllyIn Compass kickoff memo",
+    "tool": "vector",
+    "response_time": 0.061,
+    "screenshot": "demo_assets/allyin_compass.png"
+  },
+  {
+    "timestamp": "2025-05-30T04:52:35.898965",
+    "query": "Who is the compliance contact for Plant A?",
+    "sql": "SELECT compliance_contact FROM plants WHERE plant_name = 'Plant A'",
+    "tool": "vector",
+    "response_time": 0.059,
+    "screenshot": "demo_assets/compliance_contact.png"
+  },
+  {
+    "timestamp": "2025-05-30T04:56:28.472096",
+    "query": "Which facilities are inspected by the EPA?",
+    "tool": "graph",
+    "response_time": 0.024,
+    "screenshot": "demo_assets/facilities_EPA.png"
+  }
+]
+
+
+# Write JSON to file
+with open("examples/use_case_tests.json", "w") as f:
+    json.dump(use_case_tests, f, indent=2)

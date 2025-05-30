@@ -1,0 +1,23 @@
+# Core data tools
+pandas
+duckdb
+duckdb-engine
+
+# Unstructured data handling
+pymupdf  # for PDF parsing
+# email  # part of standard library, just for clarity
+
+# Embedding & vector DB
+sentence-transformers
+qdrant-client
+
+# Graph & SQL tools
+neo4j
+langchain
+langchain-community
+langchain-core
+langchain-openai
+openai  # for GPT-based querying
+
+# UI framework
+streamlit
