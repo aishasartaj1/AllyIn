@@ -10,7 +10,7 @@ AllyIn Compass is a smart enterprise assistant designed to answer natural langua
 * **Compliance & PII Alerts:** Highlights sensitive data or risky terms in responses
 * **Observability Dashboard:** Visualizes tool usage, query logs, and response latency
 * **Feedback Loop:** Collects thumbs up/down for future iterations and analysis
-* **Learning Tools:** Includes RAG-style retrieval and simulated fine-tuning using LoRA (for exploration only)
+* **Learning Tools:** Includes RAG-style retrieval and simulated fine-tuning using LoRA 
 
 ---
 
